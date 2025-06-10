@@ -1,0 +1,63 @@
+=== CLASSIFICATION: Proprietary Information ===
+=== HANDLING: Copyright 2025 TechWatch Intelligence ===
+=== HANDLING: Distribution: Internal Use Only ===
+=== ORCS INDEX VERSION: 2025.003 ===
+REPOSITORY_UUID: f47ac10b-58cc-4372-a567-0e02b2c3d479
+CREATED: 2025-01-22T09:15:00Z
+MODIFIED: 2025-01-22T15:30:45Z
+TOTAL_CARDS: 4
+
+CLASSIFICATION_LEVELS:
+Level_1: Proprietary Information
+Level_2: Internal Use Only  
+Level_3: Public Information
+Level_4: Open Source
+
+CARD_INDEX:
+a94c82d2-6c89-11ed-a1eb-0242ac120002 techcorp_merger_analysis_ORCS.txt Level_1
+b85d93e3-7d9a-22fe-b567-1f13c3d4e480 startupx_financial_review_ORCS.txt Level_2  
+c96ea4f4-8eab-33gf-c678-2g24d4e5f591 regulatory_compliance_check_ORCS.txt Level_2
+d07fb5g5-9fbc-44hg-d789-3h35e5f6g602 market_analysis_public_ORCS.txt Level_3
+
+ENTITY_CROSS_REFERENCE:
+uuid:ed872f24-6c8a-11ed-a1eb-0242ac120001 organization:techcorp Level_3
+  └ cards: a94c82d2-6c89-11ed-a1eb-0242ac120002, c96ea4f4-8eab-33gf-c678-2g24d4e5f591, d07fb5g5-9fbc-44hg-d789-3h35e5f6g602
+uuid:ed872f24-6c8a-11ed-a1eb-0242ac120002 organization:startupx Level_3
+  └ cards: a94c82d2-6c89-11ed-a1eb-0242ac120002, b85d93e3-7d9a-22fe-b567-1f13c3d4e480, d07fb5g5-9fbc-44hg-d789-3h35e5f6g602
+uuid:ed872f24-6c8a-11ed-a1eb-0242ac120003 person:john-smith Level_1
+  └ cards: a94c82d2-6c89-11ed-a1eb-0242ac120002, b85d93e3-7d9a-22fe-b567-1f13c3d4e480
+uuid:ed872f24-6c8a-11ed-a1eb-0242ac120007 person:regulatory-director Level_2
+  └ cards: c96ea4f4-8eab-33gf-c678-2g24d4e5f591
+
+RELATIONSHIP_SUMMARY:
+Level_3 techcorp ACQUIRES startupx (3 cards)
+Level_1 john-smith LEADS techcorp (2 cards)
+Level_2 regulatory-body REVIEWS merger (1 card)
+Level_2 john-smith NEGOTIATES_WITH regulatory-director (1 card)
+
+CLASSIFICATION_DISTRIBUTION:
+Level_1: 1 card, 15 entities, 8 relationships
+Level_2: 2 cards, 22 entities, 12 relationships  
+Level_3: 1 card, 18 entities, 6 relationships
+PORTION_EXCEPTIONS: 12 text segments across 3 cards
+
+REPOSITORY_METADATA:
+analyst_count: 3
+last_full_scan: 2025-01-22T15:30:45Z
+format_version: 2025.003
+total_entities: 55
+total_relationships: 26
+total_comments: 11
+cards_with_portion_exceptions: 3
+highest_classification: Level_1
+lowest_classification: Level_3
+
+CROSS_CARD_PORTION_ANALYSIS:
+john-smith referenced in Level_1 contexts: 2 cards
+john-smith referenced in Level_3 contexts: 1 card  
+techcorp-startupx merger: Level_3 in public analysis, Level_1 in internal discussions
+
+=== END HANDLING: Distribution: Internal Use Only ===
+=== END HANDLING: Copyright 2025 TechWatch Intelligence ===
+=== END CLASSIFICATION: Proprietary Information ===
+=== END ORCS INDEX VERSION: 2025.003 ===
