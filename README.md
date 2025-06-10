@@ -12,6 +12,16 @@ ORCS is an ongoing experiment to solve the unprofitable problems that matter mos
 
     How do you collaborate locally while still supporting scalable, structured workflows?
 
+
+ORCS 2025 experiment
+
+ORCS 2025 takes a .txt approach, a system that allows analysts to share individual cards or export a curated group of cards with an accompanying index via lightweight methods like email, file transfer, or chat, since all data is stored in plain text with embedded metadata. Each card includes rich provenance—citations, classification, entities, and relationships—ensuring analytical integrity and traceability. This empowers individuals to do structured analysis without centralized platforms, while enabling groups or institutions to adopt or enforce standard operating procedures (SOPs) by vetting incoming ORCS files for classification conflicts or errors. Because the format is machine-readable yet human-friendly, it supports both manual workflows and AI-assisted review or model training, allowing knowledge to cascade up from individuals into larger intelligence frameworks without losing context or violating security policy.
+
+ORCS Desktop is designed as a structured, analyst-first tool that supports full import/export of structured data formats like CSV, enabling easy integration with office software, briefing slides, and other analytical tools—all while preserving classification markings, citations, and handling instructions in compliance with standards like ICD 206. It can display link diagrams, auto-match entities across mapped holdings, and trace relationships for rapid reference. By making every extracted insight reusable, traceable, and interoperable, ORCS ensures analysts never have to redo their work, allowing them to cut, paste, and transform prior analysis into new formats or collaborative exchanges with minimal friction—dramatically speeding up the analytical cycle and improving institutional memory.
+
+
+Why: 
+
 Most tools today push toward centralized platforms—“one big place where everyone puts everything.” That’s great for monetization and control, but terrible for autonomy, clarity, and longevity.
 
 ORCS takes the opposite approach.
